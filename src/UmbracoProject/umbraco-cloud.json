@@ -1,7 +1,18 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "cicd test no 01",
+      "Alias": "cicd-test-no-01",
+      "Id": "cb24df61-cf67-4c17-a2de-968c7ebc692b",
+      "TrialExpireDate": "2026-06-19T14:30:38.0000000",
+      "Workspaces": [
+        {
+          "Id": "b6821604-09d8-43fa-8709-9d8d5fa65bba",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://cicd-test-no-01.euwest01.rainbowsrock.net"
+        }
+      ]
     },
     "Settings": {}
   },
